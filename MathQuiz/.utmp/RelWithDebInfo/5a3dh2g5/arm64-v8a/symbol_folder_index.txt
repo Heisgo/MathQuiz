@@ -1,0 +1,1 @@
+C:\RepositoryUnityIdleGame\MathQuiz\MathQuiz\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\5a3dh2g5\obj\arm64-v8a
