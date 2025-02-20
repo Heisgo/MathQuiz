@@ -786,20 +786,24 @@ MonoBehaviour:
   levelData:
     levelName: Level_2
     questions:
-    - explanation: "Quando temos uma d\xEDzima peri\xF3dica simples, onde apenas
-        um n\xFAmero se repete infinitamente (por exemplo: 0,777..., 0,444...), a
-        maneira de transform\xE1-la em fra\xE7\xE3o pode ser feita de forma mais
-        direta.\r\nPassos:\r\nEscreva a d\xEDzima como um n\xFAmero.\r\nEscreva o
-        n\xFAmero no numerador (em cima da fra\xE7\xE3o) e no denominador, coloque
-        o n\xFAmero 9 repetido tantas vezes quantas forem as casas decimais do per\xEDodo."
-      questionText: "Transforme 3,525252... em uma fra\xE7\xE3o."
+    - explanation: "Passos para transformar uma d\xEDzima peri\xF3dica composta em
+        fra\xE7\xE3o:\r\nSimplificar e escrev\xEA-la como fra\xE7\xE3o: Isso envolve
+        a elimina\xE7\xE3o do per\xEDodo repetido, e a utiliza\xE7\xE3o de uma f\xF3rmula
+        padr\xE3o para esse tipo de d\xEDzima.\r\nNumerador: No numerador, voc\xEA
+        deve pegar o n\xFAmero completo e subtrair o n\xFAmero inteiro e a parte
+        n\xE3o repetida. O numerador ser\xE1 a diferen\xE7a entre o n\xFAmero inteiro
+        e o n\xFAmero sem a parte n\xE3o repetida.\r\n\rDenominador: O denominador
+        ser\xE1 formado por 9s (a quantidade de d\xEDgitos repetidos no per\xEDodo)
+        seguidos de 0s (a quantidade de d\xEDgitos n\xE3o repetidos)."
+      questionText: "Transforme 14,274747474... em fra\xE7\xE3o e, se poss\xEDvel,
+        simplifique."
       answerType: 1
       options:
-      - 352/99
-      - 325/99
-      - 349/99
-      - 322/99
-      correctAnswer: 349/99
+      - 7066/495
+      - 14274/990
+      - 14132/990
+      - 7137/495
+      correctAnswer: 7066/495
   quizPanel: {fileID: 1058228560}
   explanationText: {fileID: 678409957}
   questionText: {fileID: 1725525065}

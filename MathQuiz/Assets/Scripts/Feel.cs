@@ -8,7 +8,7 @@ public class Feel : SingletonMonoBehaviour<Feel>
     {
         LeanTween.scale(submitButton, new Vector3(1.1f, 1.1f, 1), 0.2f).setLoopPingPong(1);
     }
-    public IEnumerator TypeText(TextMeshProUGUI textComponent, string fullText, float speed = 0.05f)
+    public IEnumerator TypeText(TextMeshProUGUI textComponent, string fullText, float speed = 0.03f)
     {
         textComponent.text = string.Empty; // Limpa o texto antes de começar
         foreach (char letter in fullText)
